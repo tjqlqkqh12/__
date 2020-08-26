@@ -143,26 +143,23 @@
 
 
 #section5{
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.2);
     text-align:center;
-    padding:220px;
 }
 #section5 h1{
-    font-size:50px;
-    padding-bottom:150px;
+    font-size:70px;
+    padding:100px 0;
 }
 .contact{
     text-align:center;
     font-size:40px;
 }
 .contact li{
-    padding:20px 0;
+    padding:15px;
 }
-
 .contact li span{
     margin-left:55px;
 }
-
 .contact li a img{
     width:120px;
     margin-left:250px;
