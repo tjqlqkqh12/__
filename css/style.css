@@ -32,7 +32,7 @@
 	
 }
 .name{
-	font-size:50px;
+	font-size:35px;
     color:#fff;
     text-align:center;
 	margin-bottom:30px;
@@ -41,8 +41,9 @@
     text-indent:-9999px;
 	background:url(../images/scrollBtn.png)no-repeat;
 	margin:0 auto;
-	width:49px;
-	height:63px;
+    background-size:100%;
+	width:40px;
+    height:51px;
 	animation:scroll 0.5s infinite alternate;
 }
 @keyframes scroll{
@@ -95,16 +96,16 @@
 
 .pfTxt1,.pfTxt3{
     text-align:right;
-    left:5%;
+    left:10%;
 }
 
 .pfTxt2,.pfTxt4{
     text-align:left;
-    right:5%;
+    right:10%;
 }
 
 .pfTxt h4{
-    font-size:130px;
+    font-size:140px;
     color:#fff;
 	margin-bottom:20px;
 }
@@ -141,6 +142,31 @@
 
 
 
+#section5{
+    background:rgba(0,0,0,0.3);
+    text-align:center;
+    padding:220px;
+}
+#section5 h1{
+    font-size:50px;
+    padding-bottom:150px;
+}
+.contact{
+    text-align:center;
+    font-size:40px;
+}
+.contact li{
+    padding:20px 0;
+}
+
+.contact li span{
+    margin-left:55px;
+}
+
+.contact li a img{
+    width:120px;
+    margin-left:250px;
+}
 
 
 
