@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+#wrap{
+	background:url(../images/bg_p.png)no-repeat bottom;
+}
+
+/*main*/
+
+.titImg{
+	padding:120px 0;
+	padding-bottom:300px;
+    overflow:hidden;
+}
+.titImg p{
+	text-indent:-9999px;
+	width:970px;
+	height:138px;
+}
+.titImg1{
+	background:url(../images/t01.png)no-repeat;
+	float:left;
+	padding-bottom:30px;
+	margin-left:10%;
+}
+.titImg2{
+	background:url(../images/t02.png)no-repeat;
+	float:right;
+	margin-right:10%;
+}
+
+.mainBottom{
+	padding:50px 0;
+	
+}
+.name{
+    font-family:'Ignite';
+	font-size:50px;
+    color:#fff;
+    text-align:center;
+	margin-bottom:30px;
+}
+.scrollBtn{
+    text-indent:-9999px;
+	background:url(../images/scrollBtn.png)no-repeat;
+	margin:0 auto;
+	width:49px;
+	height:63px;
+	animation:scroll 0.5s infinite alternate;
+}
+@keyframes scroll{
+	0%{
+		transform:translate(0,-5px)
+	}
+	100%{
+		transform:translate(0,5px)
+	}
+}
+.scrollBtn a{
+	height:100%;
+	display:block;
+}
+
+
+/*portfolio*/
+.pfBox{
+    position:relative;
+    
+}
+
+.imgBox{
+    margin-top:-430px;
+    text-indent:-9999px;
+    height:500px;
+    background-size:cover;
+}
+
+.imgBox1{
+	background:url(../images/01img.png)no-repeat center center;
+}
+
+.imgBox2{
+	background:url(../images/02img.png)no-repeat center center;
+}
+
+.imgBox3{
+	background:url(../images/03img.png)no-repeat center center;
+}
+.imgBox4{
+	background:url(../images/04img.png)no-repeat center center;
+}
+
+.pfTxt{
+    position:absolute;
+    top:350px;
+}
+
+
+.pfTxt1,.pfTxt3{
+    text-align:right;
+    left:5%;
+}
+
+.pfTxt2,.pfTxt4{
+    text-align:left;
+    right:5%;
+}
+
+.pfTxt h4{
+    font-family:'Futura';
+    font-size:130px;
+    color:#fff;
+	margin-bottom:20px;
+}
+
+.pfTxt p{
+	padding:5px 0;
+	font-size:40px;
+	color:rgba(0,0,0,0.6);
+}
+
+
+.viewBtn{
+    display:inline-block;
+	margin-top:30px;
+    border:2px solid rgba(255,255,255,0.6);
+    width:300px;
+    height:70px;
+    line-height:70px;
+    text-align:center;
+    animation:txt 2s infinite alternate;
+}
+@keyframes txt{
+	0%{
+		transform:scale(0.9)
+	}
+	100%{
+		transform:scale(1)
+	}
+}
+.viewBtn a{
+	color:#fff;
+    font-size:50px;
+}
+
+
+
+
+
+
+
+
+
