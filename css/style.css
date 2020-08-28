@@ -4,6 +4,9 @@
 	background:url(../images/bg_p.png)no-repeat;
     background-size:100%;
 }
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a .active span{
+    background:#fff;
+}
 
 .titImg{
 	padding:120px 0;
