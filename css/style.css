@@ -142,11 +142,11 @@
 
 
 
-#section5{
+.contact{
     background:rgba(0,0,0,0.2);
     text-align:center;
 }
-#section5 h1{
+.contact h1{
     font-size:70px;
     padding:100px 0;
 }
@@ -154,17 +154,20 @@
     text-align:center;
     font-size:40px;
 }
-.contact li{
+.contact p{
     padding:15px;
 }
-.contact li span{
+.contact span{
     margin-left:55px;
 }
-.contact li a img{
+.contact a img{
     width:120px;
     margin-left:250px;
 }
-
+.c_b{
+    font-size:18px;
+    margin-top:100px;
+}
 
 
 
